@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Todo Application with Next.js
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Heroicons](https://img.shields.io/badge/Heroicons-4A5568?style=for-the-badge&logo=heroicons&logoColor=white)
 
-First, run the development server:
+## 📋 Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This is a simple yet powerful Todo application built with Next.js, React, and Heroicons. The application allows users to manage their tasks efficiently with features like adding, editing, deleting, and searching todos.
+
+![Screenshot](https://github.com/shamshubham/todo-app/blob/master/ss/Capture.JPG)
+
+## 🚀 Features
+
+- **User Authentication**: Ensures only authenticated users can access their todos.
+- **Add Todos**: Easily add new tasks to your todo list.
+- **Edit Todos**: Update the details of existing tasks.
+- **Delete Todos**: Remove tasks that are no longer needed.
+- **Search Todos**: Quickly find specific tasks using the search functionality.
+- **Status Update**: Mark tasks as completed or pending.
+
+![Screenshot](https://github.com/shamshubham/todo-app/blob/master/ss/Capture1.JPG)
+
+## 🛠️ Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd todo-app
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+![Screenshot](https://github.com/shamshubham/todo-app/blob/master/ss/Capture2.JPG)
+
+## 📂 Project Structure
+
+```
+.
+├── components
+│   ├── AddTodo.js
+│   ├── Modal.js
+│   ├── Nav.js
+│   ├── TodoList.js
+│   └── TodoModal.js
+├── pages
+│   ├── api
+│   ├── index.js
+│   ├── login.js
+│   └── todo.js
+└── public
+    └── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Screenshot](https://github.com/shamshubham/todo-app/blob/master/ss/Capture3.JPG)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📜 Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **User Authentication**: Upon visiting the application, users will be prompted to log in.
+2. **Dashboard**: The main page (`/todo`) displays the user's todos.
+3. **Adding Todos**: Click on the plus icon (![PlusIcon](https://img.icons8.com/ios-filled/50/000000/plus.png)) to add a new task.
+4. **Editing Todos**: Click on the edit icon (![EditIcon](https://img.icons8.com/ios-filled/50/000000/edit.png)) next to a task to modify it.
+5. **Deleting Todos**: Click on the delete icon (![DeleteIcon](https://img.icons8.com/ios-filled/50/000000/delete.png)) to remove a task.
+6. **Search**: Use the search bar at the top to filter tasks by name.
 
-## Learn More
+![Screenshot](https://github.com/shamshubham/todo-app/blob/master/ss/Capture4.JPG)
 
-To learn more about Next.js, take a look at the following resources:
+![Screenshot](https://github.com/shamshubham/todo-app/blob/master/ss/Capture5.JPG)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
+## ✨ Contributions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! Feel free to submit a pull request or open an issue to improve this project.
