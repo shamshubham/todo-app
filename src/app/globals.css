@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.validationError {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.nav-user-name {
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.nav-user-email {
+  padding-top: 0px;
+  color: gray;
+  font-size: 12px;
+  font-style: oblique;
+  letter-spacing: 0.3px;
+}
+
+.todo-items {
+  margin-top: 8px !important;
+  font-size: 12px;
+  border-bottom: 1px dashed #e2e2e2;
+}
+.todo-desc {
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  letter-spacing: 1px;
+}
+
+.todo-values {
+  font-size: 12px;
+  font-weight: 100;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  letter-spacing: 1px;
+}
+
+.todo-edit-icon {
+  font-size: 12px;
+  color: #f5f5f5;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 50%;
+  padding: 2px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.todo-delete-icon {
+  font-size: 12px;
+  color: #f5f5f5;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 50%;
+  padding: 2px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.todo-list {
+  width: 600px;
+  margin: auto;
+}
